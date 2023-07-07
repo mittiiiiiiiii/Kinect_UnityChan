@@ -8,7 +8,7 @@ windowsでkinect v2を使うにはKinect for Windows SDK 2.0が必要
 
 https://learn.microsoft.com/ja-jp/windows/apps/design/devices/kinect-for-windows
 
-ここからsdkとkinectViewなどのkinectをWindows、そしてunityで使うためのツールが手に入る。
+ここからSDKとkinectViewなどのkinectをWindows、そしてunityで使うためのツールが手に入る。
 
 ここにあるコードはUnityで使えるようにkinectViewのコードを改変、追加したものである。
 
