@@ -26,7 +26,7 @@ https://learn.microsoft.com/ja-jp/windows/apps/design/devices/kinect-for-windows
 
 この問題の解決法があったら更新したい。
 
-また、自分はリズムゲームとして作成したため、X,Y軸のみしか使用しなかった。もし、z軸を使いたければ
+また、自分はリズムゲームとして作成したため、x,y軸のみしか使用しなかった。もし、z軸を使いたければ
 
 KinectView/KinectAvotar.csの
 
