@@ -23,10 +23,7 @@ public class boll_35 : MonoBehaviour
 
         if(l<0.2||r<0.2){
             GameObject obj = GameObject.Find ("Boll_35");//対応するノーツの名前に変える！！
-            ParticleSystem newParticle = Instantiate(particle);
            
-            newParticle.transform.position = this.transform.position;
-            
             newParticle.Play();
             OffsetPosition.score_high += 300;
             Debug.Log("boll35_" + OffsetPosition.score_high);
