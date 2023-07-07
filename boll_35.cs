@@ -8,8 +8,6 @@ public class boll_35 : MonoBehaviour
     public Transform target2;
     public Transform Object;
     [SerializeField]
-    [Tooltip("����������G�t�F�N�g(�p�[�e�B�N��)")]
-    private ParticleSystem particle;
     double l,lx,ly,r,rx,ry;
     
     void Update()
