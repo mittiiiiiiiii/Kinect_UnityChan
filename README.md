@@ -18,7 +18,9 @@ https://learn.microsoft.com/ja-jp/windows/apps/design/devices/kinect-for-windows
 
 また、自分はリズムゲームとして作成したため、x,y軸のみしか使用しなかった。もし、z軸を使いたければ
 
-KinectView/KinectAvotar.csのRef.transform.position = new Vector3( pos.X, pos.Y);
+KinectView/KinectAvotar.csの
+
+Ref.transform.position = new Vector3( pos.X, pos.Y);
 のVector3部分をVector3( pos.X, pos.Y, pos.z)と改変すればokなはず.....
 
 -pos.xで動いてる向きと反対に移動させたり、pos.x*2で移動距離を2倍にすることもできる。モーションキャプチャーを動作するときの環境によって移動方向を調整したいときに使えると思う。
